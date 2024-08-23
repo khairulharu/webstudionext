@@ -56,6 +56,7 @@ export default function Header() {
             alt="Application Scrennshot"
             width={"1824"}
             height={"1080"}
+            priority={true}
           />
         </div>
       </div>
