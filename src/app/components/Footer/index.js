@@ -1,39 +1,39 @@
 export default function Footer() {
   return (
     <>
-    <div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:px-16 md:pt-24 lg:px-24 lg:pt-0">
+    <div className="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:px-16 md:pt-24 lg:px-24 lg:pt-0">
      <svg viewBox="0 0 1024 1024"
-         class="absolute left-1/2 top-1 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+         className="absolute left-1/2 top-1 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
          aria-hidden="true">
          <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)"
-             fill-opacity="0.7" />
+             fillOpacity="0.7" />
          <defs>
              <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                 <stop stop-color="#7775D6" />
-                 <stop offset="1" stop-color="#E935C1" />
+                 <stop stopColor="#7775D6" />
+                 <stop offset="1" stopColor="#E935C1" />
              </radialGradient>
          </defs>
      </svg>
-      <footer class="sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 antialiased">
-        <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
+      <footer className="sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 antialiased">
+        <p className="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
           &copy; 2024{" "}
           <a
             href="https://webstudiobone.com/"
-            class="hover:underline"
+            className="hover:underline"
             target="_blank"
           >
             webstudiobone.com
           </a>
           . All rights reserved.
         </p>
-        <div class="flex justify-center items-center space-x-1">
+        <div className="flex justify-center items-center space-x-1">
           <a
             href="#"
             data-tooltip-target="tooltip-facebook"
-            class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+            className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
           >
             <svg
-              class="w-6 h-6 text-gray-500 dark:text-white"
+              className="w-6 h-6 text-gray-500 dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -43,29 +43,29 @@ export default function Footer() {
             >
               <path
                 fill="currentColor"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
 
-            <span class="sr-only">Instagram</span>
+            <span className="sr-only">Instagram</span>
           </a>
           <div
             id="tooltip-facebook"
             role="tooltip"
-            class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+            className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
           >
             Follow Instagram Webstudio
-            <div class="tooltip-arrow" data-popper-arrow></div>
+            <div className="tooltip-arrow" data-popper-arrow></div>
           </div>
           <a
             href="#"
             data-tooltip-target="tooltip-twitter"
-            class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+            className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
           >
             <svg
-              class="w-6 h-6 text-gray-500 dark:text-white"
+              className="w-6 h-6 text-gray-500 dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -75,9 +75,9 @@ export default function Footer() {
             >
               <path
                 fill="currentColor"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M12 4a8 8 0 0 0-6.895 12.06l.569.718-.697 2.359 2.32-.648.379.243A8 8 0 1 0 12 4ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382 1.426-4.829-.006-.007-.033-.055A9.958 9.958 0 0 1 2 12Z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
               <path
                 fill="currentColor"
@@ -85,23 +85,23 @@ export default function Footer() {
               />
             </svg>
 
-            <span class="sr-only">WhatsApp</span>
+            <span className="sr-only">WhatsApp</span>
           </a>
           <div
             id="tooltip-twitter"
             role="tooltip"
-            class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+            className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
           >
             Hubungi Kami Di WhatsApp
-            <div class="tooltip-arrow" data-popper-arrow></div>
+            <div className="tooltip-arrow" data-popper-arrow></div>
           </div>
           <a
             href="#"
             data-tooltip-target="tooltip-github"
-            class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
+            className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
           >
             <svg
-              class="w-6 h-6 text-gray-500 dark:text-white"
+              className="w-6 h-6 text-gray-500 dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -111,22 +111,22 @@ export default function Footer() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M11 16v-5.5A3.5 3.5 0 0 0 7.5 7m3.5 9H4v-5.5A3.5 3.5 0 0 1 7.5 7m3.5 9v4M7.5 7H14m0 0V4h2.5M14 7v3m-3.5 6H20v-6a3 3 0 0 0-3-3m-2 9v4m-8-6.5h1"
               />
             </svg>
 
-            <span class="sr-only">Email</span>
+            <span className="sr-only">Email</span>
           </a>
           <div
             id="tooltip-github"
             role="tooltip"
-            class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+            className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
           >
             Hubungi Lewat Email
-            <div class="tooltip-arrow" data-popper-arrow></div>
+            <div className="tooltip-arrow" data-popper-arrow></div>
           </div>
         </div>
       </footer>
