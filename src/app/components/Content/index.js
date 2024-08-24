@@ -1,7 +1,7 @@
 export default function Content() {
   return (
     <>
-      <section className="bg-gray-900">
+      <section id="content-id" className="bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
@@ -119,7 +119,7 @@ export default function Content() {
                 </li>
               </ul>
               <a
-                href="#"
+                href="https://wa.me/628985277576?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank"
                 className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Get started
@@ -230,7 +230,7 @@ export default function Content() {
                 </li>
               </ul>
               <a
-                href="#"
+                href="https://wa.me/628985277576?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank"
                 className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Get started
@@ -341,7 +341,7 @@ export default function Content() {
                 </li>
               </ul>
               <a
-                href="#"
+                href="https://wa.me/628985277576?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank"
                 className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Get started
