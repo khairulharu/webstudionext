@@ -23,7 +23,7 @@ export default function Content() {
                 Agar customer bisa melihat produk yang anda tawarkan.
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">899.999</span>
+                <span className="mr-2 text-4xl sm:text-5xl font-extrabold">899.999</span>
                 <span className="text-gray-400">/Rupiah</span>
               </div>
               {/* <!-- List --> */}
@@ -134,7 +134,7 @@ export default function Content() {
                 update.
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">2.999.999</span>
+                <span className="mr-2 text-4xl sm:text-5xl font-extrabold">2.999.999</span>
                 <span className="text-gray-400">/Rupiah</span>
               </div>
               {/* <!-- List --> */}
@@ -245,7 +245,7 @@ export default function Content() {
                 support Penuh.
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">5.999.999</span>
+                <span className="mr-2 text-4xl sm:text-5xl font-extrabold">5.999.999</span>
                 <span className="text-gray-400">/Rupiah</span>
               </div>
               {/* <!-- List --> */}

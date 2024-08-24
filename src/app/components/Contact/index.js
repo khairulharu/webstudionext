@@ -8,8 +8,8 @@ export default function Contact() {
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-xl">Konsultasikan website yang anda inginkan, Mulai dari Tampilan, Desain, Fitur, Fungsi Dan Harga, Kami siap mendevelop website sesuai dengan preferensi anda.</p>
         <form action="#" className="space-y-8">
             <div>
-                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-300">Email Atau No Telephone</label>
-                <input type="text" id="email" className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="nama@gmail.com / 08987654321" required/>
+                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-300">Email</label>
+                <input type="email" id="email" className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="nama@gmail.com" required/>
             </div>
             <div>
                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-300">Nama</label>

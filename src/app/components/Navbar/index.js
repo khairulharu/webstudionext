@@ -9,9 +9,11 @@ export default function Navbar() {
           <Image src={"/WebLogo.png"}
           width={"50"}
           height={"100"}
-          className="hidden sm:block"
+          className="h-auto w-50 overflow-hidden"
+          priority
+          alt="Logo"
           />
-          <p className="font-extrabold sm:text-3xl lg:text-4xl text-4xl tracking-widest grid place-content-center">
+          <p className="font-extrabold sm:text-3xl lg:text-4xl text-2xl tracking-widest grid place-content-center">
             WEBSTUDIOBONE
           </p>
         </div>
